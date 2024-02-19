@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Profile Card</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="profile.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  </head>
+  <body>
+  <div class="card" data-state="#about">
+  <div class="card-header">
+    <img class="card-avatar" src="WhatsApp Image 2024-02-16 at 21.29.16.jpeg"avatar />
+    <h1 class="card-fullname">Ashoni Jaiswal</h1>
+    <h2 class="card-jobtitle">UI/UX Developer</h2>
+  </div>
+  <div class="card-main">
+    <div class="card-section is-active" id="about">
+      <div class="card-content">
+        <div class="card-subtitle">ABOUT</div>
+        <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum fugit nihil facilis fuga, id eligendi excepturi unde commodi nemo accusantium sunt repellendus optio? Ullam praesentium debitis cum ducimus deserunt!
+        </p>
+      </div>
+      <div class="card-social">
+        <a href="https://www.facebook.com/ashoni.jaswal?mibextid=ZbWKwL" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/code_with_me0123/?hl=en" class="fa fa-instagram"></a>
+        <a href="www.github.com/saakchichaudhary" class="fa fa-github"></a>
+        <a href="https://www.linkedin.com/in/contactsaakchi" class="fa fa-linkedin"></a>
+      </div>
+    </div>
+    <div class="card-section" id="experience">
+      <div class="card-content">
+        <div class="card-subtitle">WORK EXPERIENCE</div>
+        <div class="card-timeline">
+          <div class="card-item" data-year="2024">
+            <div class="card-item-title">Freelancer at<span> My Personal Choice</span></div>
+            <div class="card-item-desc">Proficient in designing websites, Responsive Websites, web templates, mail templates, brochures, magzines, newsletters, etc. Good knowledge of Photoshop, HTML, CSS, Layout Designing, Flash and animation would be an advantage. Excellent oral and written communication skills</div>
+          </div>
+          <div class="card-item" data-year="2023">
+            <div class="card-item-title">Full-Stack Developer, Trainee at <span>Grras Solution Pvt. Ltd.</span></div>
+            <div class="card-item-desc">Ability to design e-commerce website using HTML, CSS and Javascript. Worked on different type of project using HTML, CSS and Javascript. Getting the knowledge of MERN stack developer. Communicate effectively with team members, sharing progress and seeking assistance when needed. Worked on designing and developing web applications.</div>
+          </div>
+          <div class="card-item" data-year="2022">
+            <div class="card-item-title">Website Management/Social Media Marketer at <span>DRM Education, Jaipur</span></div>
+            <div class="card-item-desc">Edit and upload imagery to various parts of website and social media. Responsible for maintaining the content on the website and e-marketing.
+            Develop & execute social media marketing strategies. Monitor social media channel for comments, messages and mentions. Respond to inquires, comments & messages promptly & professionally.</div>
+          </div>
+          <div class="card-item" data-year="2017">
+            <div class="card-item-title">Junior Accountant at <span>First Gravure Pvt. Ltd.</span></div>
+            <div class="card-item-desc">Good with numbers and figures and an analytical acumen. Good understanding of accounting and financial reporting principles and practices. Excellent knowledge of MS Office and familiarity with relevant computer software (eg SAP). Assist with day-to-day bookkeeping tasks, including data entry, invoice processing, and reconciliations. Strong attention to detail and accuracy in record-keeping</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-section" id="contact">
+      <div class="card-content">
+        <div class="card-subtitle">CONTACT</div>
+        <div class="card-contact-wrapper">
+          <div class="card-contact">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+              <circle cx="12" cy="10" r="3" /></svg>
+            Jaipur, Rajasthan, India
+          </div>
+          <div class="card-contact">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" /></svg>(+91) 8769XXXXXX</div>
+          <div class="card-contact">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <path d="M22 6l-10 7L2 6" /></svg>
+            sakxichaudhary@gmail.com
+          </div>
+          <button class="contact-me">WORK TOGETHER</button>
+        </div>
+      </div>
+    </div>
+    <div class="card-buttons">
+      <button data-section="#about" class="is-active">ABOUT</button>
+      <button data-section="#experience">EXPERIENCE</button>
+      <button data-section="#contact">CONTACT</button>
+    </div>
+  </div>
+</div>
+    <script src="profile.js"></script>
+  </body>
+</html>
